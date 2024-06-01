@@ -5,15 +5,14 @@
     <title>register and login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='main.js'></script>
 </head>
+
 <body>
-    <div class="container" id="signup">
+    <div class="container" id="signUp" style="display:none;">
         <h1 class="form-title">Register</h1>
         <form method="post" action="">
             <div class="input-group">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-user"></i> 
                 <input name="text" name="fname" id="fname" placeholder="First Name" required >
                 <label for="fname">First Name</label>
             </div>
@@ -36,7 +35,7 @@
                 <label for="password">Password</label>
             </div>
 
-            <input type="submit" class="btn" value="Sign Up" name="signup"> 
+            <input type="submit" class="btn" value="sign Up" name="signUp"> 
         </form>
         <p class="or">
             ..........or..........
@@ -47,13 +46,13 @@
         </div>
         <div class="links">
             <p>Already Have Account</p>
-            <button id="SignInButton">Sign In</button>
+            <button id="signInButton">Sign In</button>
         </div>
     </div>
  
 
  <div class="container" id="signIn">
- <h1 class="form-title">Sign In</h1>
+ <h1 class="form-title">sign In</h1>
  <form method="post" action="">
          <div class="input-group">
          <i class="fas fa-envelope"></i>
@@ -71,7 +70,7 @@
         <a href="#">Recover Password</a>
      </p>
 
-     <input type="submit" class="btn" value="Sign In" name="signIn"> 
+     <input type="submit" class="btn" value="sign In" name="signIn"> 
  </form>
  <p class="or">
      ..........or..........
@@ -82,8 +81,11 @@
  </div>
  <div class="links">
      <p>Dont Have Account yet ?</p>
-     <button id="SignUpButton">Sign Up</button>
+     <button id="signUpButton">Sign Up</button>
  </div>
  </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
