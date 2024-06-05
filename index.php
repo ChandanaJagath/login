@@ -29,7 +29,7 @@
         <div class="input-group">
             <i class="fas fa-lock"></i>
             <input type="password" name="password" id="password" placeholder="Password" required>
-            <label for="password">Password</label>
+            <label for="password">password</label>
         </div>
        <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
@@ -42,7 +42,7 @@
       </div>
       <div class="links">
         <p>Already Have Account ?</p>
-        <button id="signInButton">Sign In</button>
+        <button id="signInButton">Sign in</button>
       </div>
     </div>
 
